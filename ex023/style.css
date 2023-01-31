@@ -12,6 +12,9 @@ header{
   color: #fff;
   text-align: center;
 }
+header a{
+  color: white;
+}
 header h1{
   line-height: 90px;
 }
