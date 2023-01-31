@@ -3,4 +3,4 @@
 
 # site
 aqui abaixo
-# <a href="https://joaofb.github.io/Paralax/ex023/index.html">click here</a>
+# <a href="https://joaofb.github.io/Paralax/ex023/index.html" target ="_blank" rel="noopener">click here</a>
