@@ -1,78 +1,56 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
+@charset "UTF-8";
+
 *{
-  padding: 0;
-  margin: 0;
+  margin: 0px;
+  padding: 0px;
 }
-body{
-  text-align: center;
+
+html, body{
+  min-width: 100vh;
+  background-color: lightgray;
 }
-header{
-  height: 150px;
+
+header {
   background-color: black;
-  color: #fff;
-  text-align: center;
-}
-header a{
   color: white;
+  text-align: center
 }
-header h1{
-  line-height: 90px;
+header > h1{
+  padding-top: 50px;
+  font-variant: small-caps;
 }
-main{
-  padding: 20px;
+header > p{
+  padding-bottom: 50px;
 }
-main p {
-  font-family: 'Montserrat';
-  font-size: 1.9em;
-  padding: 2px;
-  margin: 20px 0px 20px 0px;
+a{
+  color: white;
+  text-decoration: none;
+  font-weight: bolder;
 }
-article{
-  box-shadow: 3px 3px 8px  rgba(0, 0, 0, 0.562) inset;
-}
-.conteudo{
-  position: relative;
-  height: 100vh;
-  background-image: url('image/pexels-javon-swaby-1697912.jpg');
-  background-position: center center;
-  background-size: cover;
-  background-attachment: fixed;
-}
-.conteudo p{
-  max-width: 400px;
-  position: absolute;
-  background-color: rgba(0, 0, 0, 0.514);
-  color: #fff;
-  font-size: 2.1em;
-  margin: 10% 10%;
-}
-.conteudo2{
-  background-image: url('image/pexels-jacob-colvin-1761279.jpg');
-  background-size: cover;
-}
-.conteudo3{
-  background-image: url('image/pexels-pixabay-270410.jpg');
-  background-size: cover;
-}
-.conteudo4{
-  background-image: url('image/pexels-philip-ackermann-1666012.jpg');
-  background-size: cover;
-  background-attachment: fixed;
-}
-.reservados::after{
-  font-size: 1em;
-  content: '\1f517';
-}
-.reservados a{
-  background-color: limegreen;
+a:hover, footer a:hover{
+  text-decoration: underline;
 }
 footer{
   background-color: black;
-  color: #fff;
   text-align: center;
-  font-family: 'Montserrat', Arial, sans-serif;
-  height: 50px;
-  letter-spacing: 1px;
-  padding: 5px;
-  line-height: 50px;
+  padding: 10px;
+  color: white;
+}
+section{
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  line-height: 2em;
+  padding-left: 30px;
+}
+section.normal{
+  background-color: white;
+  color: black;
+}
+section.imagem{
+  background-color: rgb(70, 70, 70);
+  color: white;
+}
+section.imagem{
+  background-color: rgba(0, 0, 0, 0.623);
+  width: 400px;
 }
