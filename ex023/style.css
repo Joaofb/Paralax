@@ -36,7 +36,7 @@ main p {
   max-width: 300px;
   position: absolute;
   top: 10%;
-  transform: translate(30%,30%, 30%,50%);
+  transform: translate(20%,-10%);
   background-color: rgba(0, 0, 0, 0.514);
   color: #fff;
   font-size: 2.2em;
