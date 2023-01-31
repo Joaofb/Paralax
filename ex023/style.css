@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  text-align: center;
+}
+header{
+  height: 150px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+}
+header h1{
+  line-height: 90px;
+}
+main{
+  padding: 20px;
+}
+main p {
+  font-family: 'Montserrat';
+  font-size: 2em;
+  padding: 2px;
+  margin: 20px 0px 20px 0px;
+}
+.conteudo{
+  position: relative;
+  height: 100vh;
+  background-image: url('image/pexels-javon-swaby-1697912.jpg');
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.conteudo p{
+  max-width: 300px;
+  position: absolute;
+  top: 10%;
+  transform: translate(30%,30%, 30%,50%);
+  background-color: rgba(0, 0, 0, 0.514);
+  color: #fff;
+}
+.conteudo2{
+  background-image: url('image/pexels-jacob-colvin-1761279.jpg');
+}
+.conteudo3{
+  background-image: url('image/pexels-pixabay-270410.jpg');
+}
+.conteudo4{
+  background-image: url('image/pexels-philip-ackermann-1666012.jpg');
+}
+.reservados::after{
+  font-size: 1em;
+  content: '\1f517';
+}
+.reservados a{
+  background-color: limegreen;
+}
+footer{
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  font-family: 'Montserrat', Arial, sans-serif;
+  letter-spacing: 2px;
+  padding: 5px;
+}
