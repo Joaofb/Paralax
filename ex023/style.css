@@ -35,7 +35,7 @@ main p {
 .conteudo p{
   max-width: 400px;
   position: absolute;
-  top: 10%;
+  top: 5%;
 
   background-color: rgba(0, 0, 0, 0.514);
   color: #fff;
