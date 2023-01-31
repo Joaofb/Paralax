@@ -33,10 +33,10 @@ main p {
   background-attachment: fixed;
 }
 .conteudo p{
-  max-width: 300px;
+  max-width: 400px;
   position: absolute;
   top: 10%;
-  transform: translate(20%,-10%);
+
   background-color: rgba(0, 0, 0, 0.514);
   color: #fff;
   font-size: 2.2em;
