@@ -17,6 +17,7 @@ html, body{
   min-width: 100vh;
   background-color: lightgray;
   font-family: var(--font1);
+
 }
 
 header {
@@ -51,6 +52,9 @@ section{
   font-family: var(--font3);
   font-size: 3.5vh;
 }
+section > p{
+  padding-bottom: 2em;
+}
 section.normal{
   background-color: white;
   color: black;
@@ -58,10 +62,25 @@ section.normal{
 section.imagem{
   background-color: rgb(70, 70, 70);
   color: white;
+  box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.438);
+  background-attachment: fixed;
 }
 section.imagem > p{
-  background-color: rgba(0, 0, 0, 0.623);
+  background-color: rgba(0, 0, 0, 0.5);
   display: inline-block;
+  text-shadow: 1px 1px 0px black;
+  
+}
+
+section#img01{
+  background-image: url('image/pexels-philip-ackermann-1666012.jpg');
+  background-position: center center;
+  background-size: cover;
+}
+section#img02{
+  background-image: url('image/pexels-javon-swaby-1697912.jpg');
+  background-position: center center;
+  background-size: cover;
 }
 
 footer{
@@ -69,4 +88,7 @@ footer{
   text-align: center;
   padding: 10px;
   color: white;
+}
+footer > p{
+  font-size:  3vw;
 }
